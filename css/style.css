@@ -1,0 +1,95 @@
+/* Path: index.html */
+
+:root {
+  --color-1: #382A1D;
+  --color-2: #FFFCF4;
+  --color-3: #384E7A;
+  --color-4: #486C69;
+  --color-5: #F4C047;
+}
+
+@font-face {
+  font-family: "notoSansCJK";
+  src: url(/assets/fonts/SourceHanSansJP-Normal.otf);
+}
+
+html {
+  
+}
+
+span {
+  color: var(--color-5) !important;
+}
+body {
+  font-family: "notoSansCJK", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--color-1);
+  background-color: var(--color-2);
+  height: 500vh;
+}
+
+.container {
+  /* 中央に寄せる */
+  margin: 0 auto;
+  max-width: 960px;
+  width: 100%;
+}
+
+
+/* ヘッダー */
+.header {
+  top: 0;
+  position: fixed;
+  display: flex;
+  height: 8vh;
+  width: 100%;
+  background-color: var(--color-3);
+  color: var(--color-2);
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-left: 2rem;
+}
+.header-logo h1 {
+  color : var(--color-2);
+  margin-left: 1rem;
+  font-size: 1.8rem;
+}
+.header-logo img {
+  height: 80%;
+}
+.header-nav {
+  margin-left: auto;
+}
+.header-nav ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 100%;
+  width: 100%;
+}
+.header-nav ul li {
+  margin-right: 2.4rem;
+}
+.header-nav ul li a {
+  text-decoration: none;
+}
+.header-nav ul li a:hover {
+  color: var(--color-5);
+}
+
+
+
+
+.top {
+  width: 100%;
+  height: 100vh;
+}
+
+.about {
+  
+}
+
