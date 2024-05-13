@@ -10,15 +10,15 @@
 
 @font-face {
   font-family: "notoSansCJK";
-  src: url(/assets/fonts/SourceHanSansJP-Normal.otf);
+  src: url(./assets/fonts/SourceHanSansJP-Normal.otf);
 }
 @font-face {
   font-family: "Makinas4s";
-  src: url(/assets/fonts/Makinas-4-Square.otf);
+  src: url(./assets/fonts/Makinas-4-Square.otf);
 }
 @font-face {
   font-family: "Makinas4f";
-  src: url(/assets/fonts/Makinas-4-Flat.otf);
+  src: url(./assets/fonts/Makinas-4-Flat.otf);
 }
 
 @keyframes loaded {

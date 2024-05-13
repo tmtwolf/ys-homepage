@@ -9,9 +9,9 @@ function setSlider() {
     $("#vegas").height("100%");
     $("#vegas").vegas({
         slides: [
-            { src: "assets/test/a.png" },
-            { src: "assets/test/b.png" },
-            { src: "assets/test/c.png" },
+            { src: "./assets/test/a.png" },
+            { src: "./assets/test/b.png" },
+            { src: "./assets/test/c.png" },
         ],
         transition: ["fade"],
         animation: ["kenburns"],
